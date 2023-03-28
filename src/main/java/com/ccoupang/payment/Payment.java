@@ -1,4 +1,4 @@
-package com.ccoupang.domain.payment;
+package com.ccoupang.payment;
 
 import java.time.LocalDateTime;
 import javax.persistence.Column;

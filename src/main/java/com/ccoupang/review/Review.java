@@ -1,7 +1,8 @@
-package com.ccoupang.domain.orderproduct;
+package com.ccoupang.review;
 
-import com.ccoupang.domain.order.Order;
-import com.ccoupang.domain.product.Product;
+import com.ccoupang.member.Member;
+import com.ccoupang.product.Product;
+import java.time.LocalDateTime;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -13,25 +14,27 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "order_product")
-public class OrderProduct {
+@Table(name = "review")
+public class Review {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  @Column(name = "order_product_id")
+  @Column(name = "review_id")
   private Long id;
 
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumn(name = "order_id", nullable = false)
-  private Order order;
+  @JoinColumn(name = "member_id", nullable = false)
+  private Member member;
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "product_id", nullable = false)
   private Product product;
 
   @Column(nullable = false)
-  private int quantity;
+  private LocalDateTime reviewDate;
 
   @Column(nullable = false)
-  private int price;
+  private String description;
+
+  private int rate_scoer;
 }

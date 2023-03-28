@@ -1,4 +1,4 @@
-package com.ccoupang.domain.orderproduct;
+package com.ccoupang.orderproduct;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

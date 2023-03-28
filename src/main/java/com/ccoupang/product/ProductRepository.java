@@ -1,4 +1,4 @@
-package com.ccoupang.domain.product;
+package com.ccoupang.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

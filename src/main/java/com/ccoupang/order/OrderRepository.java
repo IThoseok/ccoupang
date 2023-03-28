@@ -1,4 +1,4 @@
-package com.ccoupang.domain.order;
+package com.ccoupang.order;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

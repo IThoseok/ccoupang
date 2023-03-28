@@ -1,8 +1,8 @@
-package com.ccoupang.domain.order;
+package com.ccoupang.order;
 
-import com.ccoupang.domain.member.Member;
-import com.ccoupang.domain.orderproduct.OrderProduct;
-import com.ccoupang.domain.payment.Payment;
+import com.ccoupang.member.Member;
+import com.ccoupang.orderproduct.OrderProduct;
+import com.ccoupang.payment.Payment;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

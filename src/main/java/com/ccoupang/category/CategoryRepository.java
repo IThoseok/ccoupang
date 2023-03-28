@@ -1,4 +1,4 @@
-package com.ccoupang.domain.category;
+package com.ccoupang.category;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

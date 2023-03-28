@@ -1,6 +1,6 @@
-package com.ccoupang.domain.category;
+package com.ccoupang.category;
 
-import com.ccoupang.domain.product.Product;
+import com.ccoupang.product.Product;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Column;
