@@ -1,4 +1,4 @@
-package hta.ccoupang;
+package com.ccoupang;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
