@@ -1,4 +1,4 @@
-package com.ccoupang.domain.cart;
+package com.ccoupang.cart;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

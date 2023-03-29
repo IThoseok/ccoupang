@@ -1,8 +1,8 @@
-package com.ccoupang.domain.product;
+package com.ccoupang.product;
 
-import com.ccoupang.domain.category.Category;
-import com.ccoupang.domain.orderproduct.OrderProduct;
-import com.ccoupang.domain.review.Review;
+import com.ccoupang.category.Category;
+import com.ccoupang.orderproduct.OrderProduct;
+import com.ccoupang.review.Review;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Column;

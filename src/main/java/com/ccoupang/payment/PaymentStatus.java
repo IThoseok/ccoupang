@@ -1,4 +1,4 @@
-package com.ccoupang.domain.payment;
+package com.ccoupang.payment;
 
 public enum PaymentStatus {
   CARD,

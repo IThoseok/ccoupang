@@ -1,4 +1,4 @@
-package com.ccoupang.domain.review;
+package com.ccoupang.review;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

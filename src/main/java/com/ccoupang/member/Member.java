@@ -1,4 +1,4 @@
-package com.ccoupang.domain.member;
+package com.ccoupang.member;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

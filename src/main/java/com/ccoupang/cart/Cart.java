@@ -1,7 +1,7 @@
-package com.ccoupang.domain.cart;
+package com.ccoupang.cart;
 
-import com.ccoupang.domain.member.Member;
-import com.ccoupang.domain.product.Product;
+import com.ccoupang.member.Member;
+import com.ccoupang.product.Product;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
