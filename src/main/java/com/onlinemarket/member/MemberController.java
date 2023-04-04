@@ -86,8 +86,8 @@ public class MemberController {
   @PostMapping("/member/{memberId}/find")
   public String findMemberByEmail(
       @PathVariable String memeberEmail, RedirectAttributes redirectAttributes) {
-    Member member2 = memberRepository.findMemberByEmail(memeberEmail);
-    redirectAttributes.addAttribute("memberId", member2.getId());
+    Member member4 = memberRepository.findMemberByEmail(memeberEmail);
+    redirectAttributes.addAttribute("memberId", member4.getId());
     return "redirect:/member/{memberId}/update";
   }
 }
