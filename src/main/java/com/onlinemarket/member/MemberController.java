@@ -78,7 +78,7 @@ public class MemberController {
   // 이메일로 아이디 찾기
   @GetMapping("/member/find")
   public String findForm(Model model) {
-    model.addAttribute("memberForm2", new MemberForm());
+    model.addAttribute("memberForm", new MemberForm());
     return "member/findForm";
   }
 
